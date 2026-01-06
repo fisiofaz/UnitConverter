@@ -30,11 +30,19 @@ A ferramenta opera através de um fluxo simples de entrada e saída:
 ## 🔧 Estrutura do Projeto
 
 ```text
-├── docs/               # Documentação técnica e manuais de setup
-├── css/                # Folhas de estilo (arquivos .css)
-├── js/                 # Scripts de lógica e interatividade
-├── index.html          # Página principal da aplicação
-└── README.md           # Guia geral do projeto
+|___src
+|  |___components
+|    |___Button.jsx  
+|    |___UnitField.jsx
+|  |── docs
+|    |___pesquisa_sobre_SaaS.md
+|    |___setup_ambiente.md    
+|  |___utils
+|    |___conversionlogic.js             
+├  |___App.css                 
+|  |___App.jsx
+|  |___main.jsx   
+└── README.md           
 ```
 ## ⚙️ Instalação e Contribuição
 
